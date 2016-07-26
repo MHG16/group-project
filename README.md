@@ -20,28 +20,27 @@ With the following features:
 * Build whatever you like in the app folder
 
 =============================================
-This is a re-do of the original group project with these goals
+# This is a re-do of the original 'Best of' group project with these goals:
 
-1 Use React instead of Backbone
-2 Complete the project to at least Explorer mode 
-3 Create a README.md file with information on the project, including names of contributors.  
+* 1 Use React instead of Backbone
+* 2 Complete the project to at least Explorer mode 
+* 3 Create a README.md file with information on the project, including names of contributors.  
 
-
-Explorer Mode
+-----------------
+### Explorer Mode
 
 Users should be able to:
 
-View a sorted list of the "best" items on your site
-Submit new suggestions for a "best" item
-Vote for a "best" item (there is no requirement to limit votes per person)
+*View a sorted list of the "best" items on your site
+*Submit new suggestions for a "best" item
+*Vote for a "best" item (there is no requirement to limit votes per person)
 
 ----------------------------------------------
+### Adventure Mode
 
-Adventure Mode
-
-Users should be able to search or Filter "best" items
-Pagination for "best" items
-Users should be able to keep track of items they would like to try
-Restrict so more than one person cannot submit the same 
+* Users should be able to search or Filter "best" items
+* Pagination for "best" items
+* Users should be able to keep track of items they would like to try
+* Restrict so more than one person cannot submit the same 
 
 ----------------------------------------------
