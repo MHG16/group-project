@@ -1,25 +1,3 @@
-# Basic Webpack Boilerplate
-
-With the following features:
-
-* Sass compiled to css in an external stylesheet
-* ES2015
-* React and ReactDOM
-* An app directory for development and a dist folder for builds
-* Static compilation of jpg and png images
-* Nothing else
-
-### To use this on a new project
-* Clone the repo!
-* Change the remote!
-* Install the packages with `npm install`!
-* To start the dev server run `webpack-dev-server --progress --colors`
-  * Your project is now live at 'localhost:8080' and livereloaded on change at 'localhost:8080/webpack-dev-server'
-* To build your assets into the `dist` directory run `webpack`
-* **NEVER TOUCH THE CONTENTS OF THE DIST FOLDER**
-* Build whatever you like in the app folder
-
-=============================================
 # This is a re-do of the original 'Best of' group project with these goals:
 
 * Use React instead of Backbone
@@ -44,3 +22,19 @@ Users should be able to:
 * Restrict so more than one person cannot submit the same 
 
 ----------------------------------------------
+### Project uses the following:
+
+* Webpack Boilerplate  
+* React
+* Backbone models and collections  
+
+----------------------------------------------
+### Project contributors
+
+Design: Eric Black
+Front-end: Martin Grossmann
+Back-end: Naghmeh Shirazi, Jared Powers
+
+
+
+
