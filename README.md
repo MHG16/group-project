@@ -22,18 +22,18 @@ With the following features:
 =============================================
 # This is a re-do of the original 'Best of' group project with these goals:
 
-* 1 Use React instead of Backbone
-* 2 Complete the project to at least Explorer mode 
-* 3 Create a README.md file with information on the project, including names of contributors.  
+* Use React instead of Backbone
+* Complete the project to at least Explorer mode 
+* Create a README.md file with information on the project, including names of contributors.  
 
 -----------------
 ### Explorer Mode
 
 Users should be able to:
 
-*View a sorted list of the "best" items on your site
-*Submit new suggestions for a "best" item
-*Vote for a "best" item (there is no requirement to limit votes per person)
+* View a sorted list of the "best" items on your site
+* Submit new suggestions for a "best" item
+* Vote for a "best" item (there is no requirement to limit votes per person)
 
 ----------------------------------------------
 ### Adventure Mode
