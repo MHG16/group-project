@@ -18,3 +18,28 @@ With the following features:
 * To build your assets into the `dist` directory run `webpack`
 * **NEVER TOUCH THE CONTENTS OF THE DIST FOLDER**
 * Build whatever you like in the app folder
+
+=============================================
+This is a re-do of the original group project with these goals
+1 Use React instead of Backbone
+2 Complete the project to at least Explorer mode 
+
+
+Explorer Mode
+
+Users should be able to:
+
+View a sorted list of the "best" items on your site
+Submit new suggestions for a "best" item
+Vote for a "best" item (there is no requirement to limit votes per person)
+
+----------------------------------------------
+
+Adventure Mode
+
+Users should be able to search or Filter "best" items
+Pagination for "best" items
+Users should be able to keep track of items they would like to try
+Restrict so more than one person cannot submit the same 
+
+----------------------------------------------
