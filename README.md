@@ -24,6 +24,7 @@ This is a re-do of the original group project with these goals
 
 1 Use React instead of Backbone
 2 Complete the project to at least Explorer mode 
+3 Create a README.md file with information on the project, including names of contributors.  
 
 
 Explorer Mode
