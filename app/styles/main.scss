@@ -1,6 +1,386 @@
-@import 'variables';
+$main_theme: #CB3439;
+$body_background1:#F5F5F5;
+$body_background2: #CCCCCB;
+$font_color:#282929;
+$font_hover:#2274A5;
+$button_text:#ffffff;
+$button_border:#292828;
+$header_font:'Monoton', cursive;
+$body_font: 'Ubuntu', sans-serif;
 
-body {
-  background: $light-grey;
-  background-image: url(../assets/orangecat.jpg);
+// @mixin centerer {
+//   position: absolute;
+//   top: 50%;
+//   left: 50%;
+//   transform: translate(-50%, -50%);
+// }
+
+// @mixin h-center {
+//   position: absolute;
+//   left: 50%;
+//   transform: translateX(-50%)
+
+// @mixin v-center {
+//   position: absolute;
+//   top: 50%;
+//   transform: translateY(-50%);
+// }
+
+//-----------------------------------header/navbar styling-------------------------------//
+header{
+
+	.nav{
+		background-color: $main_theme;
+		
+
+			h1{
+				font-family: $header_font;
+				color: $button_text;
+				text-align: center;
+				font-size: 2.250em;
+				padding: .5em;
+				margin-top: 0em;
+				
+
+			}
+	}
+
 }
+
+footer{
+	background-color:$main_theme;
+	padding:3em;
+	margin:0 auto;
+}
+
+
+
+//------------------------------------------MOBILE------------------------------
+
+.row{
+	
+	overflow:auto;
+	margin: 0 auto;
+	margin-bottom: 2em;
+
+
+	h2{
+		font-family: $body_font;
+		margin:1em;
+	}
+	.movie{
+		margin: 1%;
+		display: inline-block;
+		width:45%;
+		text-align:center;
+		margin-bottom: 2em;
+
+		
+
+					.poster{
+   						position:relative;
+   						margin:0 auto;
+						a{
+							img{
+								height:18.750em;
+								width: 12.500em;
+								background-size:cover;
+
+							}
+						}
+					}
+
+
+		p{
+			font-family: $body_font;
+			line-height: 0.5em;
+			
+			margin:1em;
+		}
+
+		.vote_button{
+			
+			
+			
+
+			p{
+				background-color:$main_theme;
+				display: inline-block;
+				color: $button_text;
+				padding-top:0.7em;
+				padding-bottom:0.7em;
+				padding-left:2em;
+				padding-right: 2em;
+				border:3px solid $body_background1;
+
+			}
+			p:hover{
+			border:3px solid $button_border;
+			cursor:pointer;
+			}
+		}
+
+
+	}//end of movie tag--//
+
+
+
+
+}//--end or row--//
+
+
+
+
+
+//------------------------------------BREAK POINT-------------------//
+
+
+@media (min-width: 750px){
+
+
+
+	.row{
+	overflow:hidden;
+	box-sizing:border-box;
+	
+
+
+	h2{
+		font-family: $body_font;
+		margin:1em;
+	}
+
+	.movie{
+		margin: 1%;
+		float:left;
+		width: 30%;
+		text-align:center;
+		overflow: hidden;
+	
+
+					.poster{
+   						position:relative;
+   						margin:0 auto;
+   						height:18.750em;
+						width: 12.500em;
+
+						a{
+							img{
+								
+								background-size:cover;
+							}
+						}
+					}
+
+
+		p{
+			font-family: $body_font;
+			line-height: 0.5em;
+			
+			margin:1em;
+		}
+
+		.vote_button{
+			width: 65%;
+			
+
+			p{
+				background-color:$main_theme;
+				display: inline-block;
+				color: $button_text;
+				padding-top:0.7em;
+				padding-bottom:0.7em;
+				padding-left:2em;
+				padding-right: 2em;
+				border:3px solid $button_text;
+
+			}
+			p:hover{
+			border:3px solid $button_border;
+			
+			}
+		}
+
+	}//END OF MOVIE
+
+	
+}
+.row{
+	div:first-of-type{
+		margin: 2%;
+		display: inline-block;
+		width:20%;
+		text-align:center;
+		margin-bottom: 2em;
+
+	.vote_button{
+			
+			width: 65%;
+
+			
+
+			
+		}
+
+		
+
+					
+	}//END OR DIV OR TYPE
+}//END OF ROW
+.row{
+	div:nth-of-type(2){
+		margin: 2%;
+		display: inline-block;
+		width:20%;
+		text-align:center;
+		margin-bottom: 2em;
+		.vote_button{
+			
+			width: 65%;
+
+			
+
+			
+		}
+		
+
+					
+	}//END OR DIV OR TYPE
+}//END OF ROW
+
+.row{
+	div:nth-of-type(3){
+		margin: 2%;
+		display: inline-block;
+		width:20%;
+		text-align:center;
+		margin-bottom: 2em;
+		.vote_button{
+			
+			width: 65%;
+
+			
+
+			
+		}
+		
+
+					
+	}//END OR DIV OR TYPE
+}//END OF ROW
+
+.row{
+	div:nth-of-type(4){
+		margin: 2%;
+		display: inline-block;
+		width:20%;
+		text-align:center;
+		margin-bottom: 2em;
+		.vote_button{
+			
+			width: 65%;
+
+			
+
+			
+		}
+		
+
+					
+	}//END OR DIV OR TYPE
+}//END OF ROW
+
+
+
+}
+
+
+
+
+
+//----------------------------------------------------------BREAKPOINT 2------------------------------------------------------//
+
+@media (min-width: 1100px){
+
+
+
+
+
+
+//--------------------------------------------- BREAKPOINT 2----------------------------------------//
+
+
+.row{
+	overflow:hidden;
+	.movie{
+		margin:0 auto;
+		float:left;
+		width:16%;
+		text-align:center;
+		height: 428px;
+		box-sizing:border-box;
+		margin-bottom: 5em;
+
+		
+
+					.poster{
+   						position:relative;
+   						margin:0 auto;
+   						
+						a{
+							img{
+								height:15.750em;
+								width: 10.00em;
+								background-size:cover;
+							}
+						}
+					}
+
+
+		p{
+			font-family: $body_font;
+			
+		}
+
+		.vote_button{
+			margin-top: 0em;
+			
+			
+
+			p{
+				background-color:$main_theme;
+				display: inline-block;
+				color: $button_text;
+				padding-top:0.7em;
+				padding-bottom:0.7em;
+				padding-left:2em;
+				padding-right: 2em;
+				border:3px solid $button_text;
+
+			}
+			p:hover{
+			border:3px solid $button_border;
+			}
+		}
+
+	}//--end of movie tag--//
+
+
+}//--end of col-12--//
+
+
+
+
+
+
+
+
+
+}//-----END OF MEDIA QUIRY TAG BREAKPOINT 2
+
+
+
+
+
+
+
