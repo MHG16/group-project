@@ -21,6 +21,7 @@ With the following features:
 
 =============================================
 This is a re-do of the original group project with these goals
+
 1 Use React instead of Backbone
 2 Complete the project to at least Explorer mode 
 
